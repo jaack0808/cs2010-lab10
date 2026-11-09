@@ -1,0 +1,10 @@
+export OPENROUTER_API_KEY="YOUR_NEW_API_KEY"
+
+curl https://openrouter.ai/api/v1/videos \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+  -d '{
+    "model": "minimax/hailuo-3-max",
+    "prompt": "A serene mountain landscape at sunset with clouds drifting by"
+  }'
+

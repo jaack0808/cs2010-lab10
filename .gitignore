@@ -1,4 +1,5 @@
 node_modules/
+dist/
 openrouter.env
 tmp/
 output/

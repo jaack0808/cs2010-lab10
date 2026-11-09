@@ -1,0 +1,2 @@
+curl https://openrouter.ai/api/v1/videos/gen-vid-1794257337-5QfJze7mgw7tkALipaKd \
+	-H "Authorization: Bearer $OPENROUTER_API_KEY" 
